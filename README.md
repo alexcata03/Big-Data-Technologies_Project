@@ -2,7 +2,7 @@ Fruit Image Classification
 
 This project uses transfer learning with MobileNetV2 (TensorFlow/Keras) to classify fruits as fresh or rotten. The model is trained on the Fruits – Fresh and Rotten for Classification dataset
 , applying real-time data augmentation (flip, rotation, zoom) and optimized input pipelines using caching and prefetching.
-
+Dataset: https://www.kaggle.com/datasets/sriramr/fruits-fresh-and-rotten-for-classification
 The pipeline:
 
 Loads and preprocesses images from foldered datasets (train/, test/)
